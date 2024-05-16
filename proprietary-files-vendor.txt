@@ -277,7 +277,6 @@ vendor/etc/twoshay_config.json
 vendor/etc/vintf/manifest/android.hardware.authsecret-service.citadel.xml
 vendor/etc/vintf/manifest/android.hardware.biometrics.face-service-akita.xml
 vendor/etc/vintf/manifest/android.hardware.camera.provider@2.7-service-google-apex.xml
-vendor/etc/vintf/manifest/android.hardware.cas-service.xml
 vendor/etc/vintf/manifest/android.hardware.confirmationui-service.trusty.vendor.xml
 vendor/etc/vintf/manifest/android.hardware.gnss@vendor.xml
 vendor/etc/vintf/manifest/android.hardware.identity.strongbox.xml

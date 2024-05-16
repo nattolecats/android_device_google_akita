@@ -515,6 +515,7 @@ VENDOR_SKIP_FILES=(
     "etc/usb_audio_policy_configuration.xml"
     "etc/vintf/compatibility_matrix.xml"
     "etc/vintf/manifest.xml"
+    "etc/vintf/manifest/android.hardware.cas-service.xml"
     "etc/vintf/manifest/android.hardware.contexthub-service.generic.xml"
     "etc/vintf/manifest/android.hardware.drm-service.clearkey.xml"
     "etc/vintf/manifest/android.hardware.dumpstate-service.xml"
