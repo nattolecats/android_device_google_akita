@@ -61,6 +61,9 @@ function blob_fixup() {
         vendor/etc/init/init.modem_logging_control.rc)
             sed -i 's/ && property:ro.debuggable=0//' "${2}"
             ;;
+        vendor/bin/trusty_metricsd)
+            ${PATCHELF} --add-needed "android.frameworks.stats-V1-cpp.so" "${2}"
+            ;;
     esac
 }
 
