@@ -870,9 +870,6 @@ VENDOR_SKIP_FILES=(
     "lib64/libpuresoftkeymasterdevice.so"
     "lib64/libsoft_attestation_cert.so"
 
-    # Json
-    "lib64/libjson.so"
-
     # Nos
     "lib64/lib_android_keymaster_keymint_utils.so"
     "lib64/libcppbor_external.so"
@@ -907,7 +904,6 @@ VENDOR_SKIP_FILES=(
 
     # Trusty
     "lib64/android.trusty.stats.nw.setter-cpp.so"
-    "lib64/lib_sensor_listener.so"
     "lib64/libbinder_trusty.so"
     "lib64/libtrusty_metrics.so"
 
@@ -928,10 +924,6 @@ VENDOR_SKIP_FILES=(
     "lib64/android.hardware.keymaster@4.0.so"
     "lib64/android.hardware.keymaster@4.1.so"
     "lib64/android.hardware.neuralnetworks-V4-ndk.so"
-    "lib64/android.hardware.neuralnetworks@1.0.so"
-    "lib64/android.hardware.neuralnetworks@1.1.so"
-    "lib64/android.hardware.neuralnetworks@1.2.so"
-    "lib64/android.hardware.neuralnetworks@1.3.so"
     "lib64/android.hardware.oemlock-V1-ndk.so"
     "lib64/android.hardware.power@1.0.so"
     "lib64/android.hardware.power@1.1.so"
@@ -962,7 +954,6 @@ VENDOR_SKIP_FILES=(
     "lib64/com.google.hardware.pixel.display-V4-ndk.so"
     "lib64/com.google.hardware.pixel.display-V6-ndk.so"
     "lib64/com.google.hardware.pixel.display-V9-ndk.so"
-    "lib64/hardware.google.ril_ext-V1-ndk.so"
 
     # Misc
     "bin/dump/dump_gsc.sh"

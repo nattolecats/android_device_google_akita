@@ -33,7 +33,8 @@ PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.1.vendor \
     hardware.google.bluetooth.bt_channel_avoidance@1.0.vendor \
     hardware.google.bluetooth.sar@1.0.vendor \
-    hardware.google.bluetooth.sar@1.1.vendor
+    hardware.google.bluetooth.sar@1.1.vendor \
+    android.hardware.bluetooth-V1-ndk.vendor
 
 # Camera
 PRODUCT_PACKAGES += \
@@ -43,7 +44,7 @@ PRODUCT_PACKAGES += \
 
 # Codec2
 PRODUCT_PACKAGES += \
-    android.hardware.media.c2@1.0.vendor \
+    android.hardware.media.c2@1.2.vendor \
     libacryl \
     libacryl_hdr_plugin \
     libavservices_minijail.vendor:64 \
@@ -67,7 +68,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libEGL_angle \
     libGLESv1_CM_angle \
-    libGLESv2_angle
+    libGLESv2_angle \
+    android.hardware.graphics.common-V4-ndk.vendor
 
 # HIDL
 PRODUCT_PACKAGES += \
@@ -82,6 +84,7 @@ PRODUCT_PACKAGES += \
 
 # Nos
 PRODUCT_PACKAGES += \
+    libkeymint.vendor:64 \
     libkeymaster4support.vendor:64 \
     libkeymint_support.vendor:64 \
     libnos:64 \
@@ -126,6 +129,7 @@ PRODUCT_PACKAGES += \
     android.hardware.biometrics.face-V3-ndk.vendor:64 \
     android.hardware.biometrics.face@1.0.vendor:64 \
     android.hardware.biometrics.fingerprint-V2-ndk.vendor:64 \
+    android.hardware.biometrics.fingerprint-V3-ndk.vendor:64 \
     android.hardware.health-V1-ndk.vendor \
     android.hardware.input.common-V1-ndk.vendor:64 \
     android.hardware.input.processor-V1-ndk.vendor:64 \
