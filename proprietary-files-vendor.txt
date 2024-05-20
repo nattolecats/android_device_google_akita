@@ -52,7 +52,6 @@ vendor/bin/modem_svc_sit
 vendor/bin/rfsd
 vendor/bin/securedpud.slider
 vendor/bin/sscoredump
-vendor/bin/trusty_metricsd
 vendor/bin/twoshay
 vendor/bin/umfw_stat_tool
 vendor/bin/usf_stats
