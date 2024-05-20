@@ -174,3 +174,14 @@ vendor/lib64/com.google.hardware.pixel.display-V9-ndk.so
 vendor/lib64/libExynosHWCService.so
 vendor/lib64/libdrmresource.so
 vendor/lib64/libexynosdisplay.so
+
+# USB service stack
+vendor/bin/hw/android.hardware.usb-service
+vendor/etc/init/android.hardware.usb-service.rc
+vendor/etc/vintf/manifest/android.hardware.usb-service.xml
+vendor/lib64/android.hardware.usb-V2-ndk.so
+vendor/lib64/android.hardware.usb.gadget@1.0.so
+vendor/bin/hw/android.hardware.usb.gadget-service
+vendor/etc/init/android.hardware.usb.gadget-service.rc
+vendor/etc/vintf/manifest/android.hardware.usb.gadget-service.xml
+vendor/lib64/android.hardware.usb.gadget-V1-ndk.so
