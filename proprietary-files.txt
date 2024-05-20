@@ -153,5 +153,5 @@ system_ext/etc/permissions/vzw_mvs_permissions.xml
 system_ext/priv-app/LLKAgent/LLKAgent.apk
 system_ext/priv-app/MyVerizonServices/MyVerizonServices.apk;PRESIGNED
 
-# Trusty - from husky-user 14 UQ1A.231205.015 11084887 release-keys
-vendor/bin/trusty_metricsd|5212beb3d528b8216665876823dccdaeb09a61fc
+# Trusty - from husky_beta-user VanillaIceCream AP31.240322.027 11746798 release-keys
+vendor/bin/trusty_metricsd|6a303f6c4a7cdc23f8996093037e2d58e273cb72
