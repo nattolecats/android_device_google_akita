@@ -127,7 +127,6 @@ system_ext/etc/permissions/google-ril.xml
 system_ext/framework/RadioConfigLib.jar
 system_ext/framework/google-ril.jar
 system_ext/priv-app/CarrierSetup/CarrierSetup.apk;PRESIGNED
-system_ext/priv-app/ConnectivityThermalPowerManager/ConnectivityThermalPowerManager.apk
 system_ext/priv-app/EuiccGoogleOverlay/EuiccGoogleOverlay.apk
 system_ext/priv-app/EuiccSupportPixel-P23/EuiccSupportPixel-P23.apk;PRESIGNED
 system_ext/priv-app/EuiccSupportPixel-P23/esim-full-v1-m40.img
@@ -137,6 +136,9 @@ system_ext/priv-app/EuiccSupportPixelPermissions/EuiccSupportPixelPermissions.ap
 system_ext/priv-app/RilConfigService/RilConfigService.apk
 system_ext/priv-app/grilservice/grilservice.apk;PRESIGNED
 system_ext/priv-app/ril-extension/ril-extension.apk;PRESIGNED
+
+# Radio - from barbet AP1A.240405.002
+system_ext/priv-app/ConnectivityThermalPowerManager/ConnectivityThermalPowerManager.apk|7624c30babbbe250f0e557a2566c22fac9c9d303
 
 # RIL
 system_ext/app/OemRilHookService/OemRilHookService.apk
