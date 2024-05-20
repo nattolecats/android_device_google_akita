@@ -35,6 +35,14 @@ PRODUCT_PACKAGES += \
     libaudioroutev2.vendor \
     libtinycompress
 
+# Biometrics
+PRODUCT_PACKAGES += \
+    android.hardware.biometrics.common-V3-ndk.vendor \
+    android.hardware.biometrics.fingerprint-V3-ndk.vendor \
+    android.hardware.biometrics.face-V3-ndk.vendor \
+    android.hardware.biometrics.face@1.0.vendor \
+    android.hardware.power@1.2.vendor
+
 # Bluetooth
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth-V1-ndk.vendor \
@@ -43,7 +51,8 @@ PRODUCT_PACKAGES += \
 # Camera
 PRODUCT_PACKAGES += \
     libGralloc4Wrapper \
-    pixel-power-ext-V1-ndk.vendor
+    pixel-power-ext-V1-ndk.vendor \
+    libcamera2ndk_vendor
 
 # Codec2
 PRODUCT_PACKAGES += \
@@ -76,7 +85,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libEGL_angle \
     libGLESv1_CM_angle \
-    libGLESv2_angle
+    libGLESv2_angle \
+    android.hardware.graphics.common-V4-ndk \
+    android.hardware.graphics.common-V4-ndk.vendor \
+    com.google.hardware.pixel.display-V4-ndk.vendor
 
 # HIDL
 PRODUCT_PACKAGES += \
