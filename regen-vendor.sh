@@ -908,7 +908,6 @@ VENDOR_SKIP_FILES=(
     # Trusty
     "bin/trusty_metricsd"
     "lib64/android.trusty.stats.nw.setter-cpp.so"
-    "lib64/lib_sensor_listener.so"
     "lib64/libbinder_trusty.so"
     "lib64/libtrusty_metrics.so"
 
