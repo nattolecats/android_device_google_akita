@@ -155,3 +155,22 @@ system_ext/priv-app/MyVerizonServices/MyVerizonServices.apk;PRESIGNED
 
 # Trusty - from husky_beta-user VanillaIceCream AP31.240322.027 11746798 release-keys
 vendor/bin/trusty_metricsd|6a303f6c4a7cdc23f8996093037e2d58e273cb72
+
+# Graphics stack
+vendor/bin/hw/android.hardware.composer.hwc3-service.pixel
+vendor/etc/init/hwc3-pixel.rc
+vendor/etc/vintf/manifest/hwc3-default.xml
+vendor/etc/vintf/manifest/pixel-display-default.xml
+vendor/lib64/android.hardware.graphics.composer3-V2-ndk.so
+vendor/lib64/android.hardware.graphics.composer@2.1-resources.so
+vendor/lib64/android.hardware.graphics.composer@2.1.so
+vendor/lib64/android.hardware.graphics.composer@2.2-resources.so
+vendor/lib64/android.hardware.graphics.composer@2.2.so
+vendor/lib64/android.hardware.graphics.composer@2.3.so
+vendor/lib64/android.hardware.graphics.composer@2.4.so
+vendor/lib64/android.hardware.power-V2-ndk.so
+vendor/lib64/com.google.hardware.pixel.display-V4-ndk.so
+vendor/lib64/com.google.hardware.pixel.display-V9-ndk.so
+vendor/lib64/libExynosHWCService.so
+vendor/lib64/libdrmresource.so
+vendor/lib64/libexynosdisplay.so
