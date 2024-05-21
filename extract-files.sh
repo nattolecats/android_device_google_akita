@@ -61,9 +61,6 @@ function blob_fixup() {
         vendor/etc/init/init.modem_logging_control.rc)
             sed -i 's/ && property:ro.debuggable=0//' "${2}"
             ;;
-        vendor/apex/com.google.pixel.camera.hal.apex)
-            sed -i 's/V4-ndk/V5-ndk/g' "${2}"
-            ;;
     esac
 }
 
