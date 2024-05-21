@@ -108,7 +108,7 @@ cc_prebuilt_binary {
     product_variables: {
         debuggable: {
             required: [
-                "libsighandler",
+                //"libsighandler",
             ],
         },
     },
