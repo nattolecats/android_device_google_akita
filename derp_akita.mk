@@ -4,19 +4,19 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit some common Lineage stuff.
+# Inherit some common Derp stuff.
 TARGET_DISABLE_EPPE := true
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/google/akita/aosp_akita.mk)
-$(call inherit-product, device/google/zuma/lineage_common.mk)
-$(call inherit-product, device/google/akita/device-lineage.mk)
+$(call inherit-product, device/google/zuma/derp_common.mk)
+$(call inherit-product, device/google/akita/device-derp.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_BRAND := google
 PRODUCT_MODEL := Pixel 8a
-PRODUCT_NAME := lineage_akita
+PRODUCT_NAME := derp_akita
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2400
