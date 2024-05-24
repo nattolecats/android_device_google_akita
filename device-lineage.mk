@@ -54,6 +54,9 @@ PRODUCT_PACKAGES += \
     pixel-power-ext-V1-ndk.vendor \
     libcamera2ndk_vendor
 
+# Camera patches
+$(call inherit-product-if-exists, device/google/akita-camera/device.mk)
+
 # Codec2
 PRODUCT_PACKAGES += \
     android.hardware.media.c2@1.0.vendor \
