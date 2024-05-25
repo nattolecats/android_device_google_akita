@@ -24,8 +24,8 @@ TARGET_SCREEN_WIDTH := 1080
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_PRODUCT=akita \
-    PRIVATE_BUILD_DESC="akita-user 14 UD2A.240505.001.W1 11715222 release-keys"
+    PRIVATE_BUILD_DESC="akita-user 14 AP2A.240605.024 11860263 release-keys"
 
-BUILD_FINGERPRINT := google/akita/akita:14/UD2A.240505.001.W1/11715222:user/release-keys
+BUILD_FINGERPRINT := google/akita/akita:14/AP2A.240605.024/11860263:user/release-keys
 
 $(call inherit-product, vendor/google/akita/akita-vendor.mk)
