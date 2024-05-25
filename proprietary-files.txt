@@ -4,8 +4,8 @@
 
 # AiAi
 product/priv-app/AICorePrebuilt/AICorePrebuilt.apk;PRESIGNED
-product/priv-app/DeviceIntelligenceNetworkPrebuilt/DeviceIntelligenceNetworkPrebuilt.apk;PRESIGNED
-product/priv-app/DevicePersonalizationPrebuiltPixel2023/DevicePersonalizationPrebuiltPixel2023.apk;PRESIGNED
+product/priv-app/DeviceIntelligenceNetworkPrebuilt-astrea_20240311.DF2_RC00/DeviceIntelligenceNetworkPrebuilt-astrea_20240311.DF2_RC00.apk;PRESIGNED
+product/priv-app/DevicePersonalizationPrebuiltPixel2023-aiai_sdk35_20240311.DF2_p0/DevicePersonalizationPrebuiltPixel2023-aiai_sdk35_20240311.DF2_p0.apk;PRESIGNED
 
 # Audio
 product/etc/ambient/matcher_tah.leveldb
@@ -16,7 +16,7 @@ product/etc/firmware/music_detector.sound_model_tflite
 
 # Camera extensions
 product/etc/permissions/androidx.camera.extensions.impl.xml
-product/priv-app/PixelCameraServicesAK3/PixelCameraServicesAK3.apk;PRESIGNED
+product/priv-app/PixelCameraServices/PixelCameraServices.apk;PRESIGNED
 
 # Felica
 product/etc/felica/common.cfg
@@ -58,7 +58,7 @@ product/etc/permissions/com.android.sdm.plugins.dcmo.xml
 product/etc/permissions/com.android.sdm.plugins.diagmon.xml
 product/lib64/libdmengine.so
 product/lib64/libdmjavaplugin.so
-product/priv-app/CarrierSettings/CarrierSettings.apk;PRESIGNED
+product/priv-app/CarrierSettings_signed_47.0.602606545/CarrierSettings_signed_47.0.602606545.apk;PRESIGNED
 product/priv-app/CarrierWifi/CarrierWifi.apk;PRESIGNED
 product/priv-app/ConnMO/ConnMO.apk
 product/priv-app/DCMO/DCMO.apk
@@ -96,7 +96,7 @@ system_ext/bin/hw/vendor.google.edgetpu_app_service@1.0-service
 system_ext/etc/init/vendor.google.edgetpu_app_service@1.0-service.rc
 system_ext/etc/public.libraries-google.txt
 system_ext/etc/vintf/manifest/vendor.google.edgetpu_app_service@1.0-service.xml
-system_ext/lib64/com.google.edgetpu_app_service-V2-ndk.so
+system_ext/lib64/com.google.edgetpu_app_service-V4-ndk.so
 system_ext/lib64/com.google.edgetpu_vendor_service-V2-ndk.so
 system_ext/lib64/libedgetpu_dba.google.so
 
@@ -163,7 +163,7 @@ vendor/bin/hw/android.hardware.composer.hwc3-service.pixel
 vendor/etc/init/hwc3-pixel.rc
 vendor/etc/vintf/manifest/hwc3-default.xml
 vendor/etc/vintf/manifest/pixel-display-default.xml
-vendor/lib64/android.hardware.graphics.composer3-V2-ndk.so
+vendor/lib64/android.hardware.graphics.composer3-V3-ndk.so
 vendor/lib64/android.hardware.graphics.composer@2.1-resources.so
 vendor/lib64/android.hardware.graphics.composer@2.1.so
 vendor/lib64/android.hardware.graphics.composer@2.2-resources.so
@@ -181,7 +181,7 @@ vendor/lib64/libexynosdisplay.so
 vendor/bin/hw/android.hardware.usb-service
 vendor/etc/init/android.hardware.usb-service.rc
 vendor/etc/vintf/manifest/android.hardware.usb-service.xml
-vendor/lib64/android.hardware.usb-V2-ndk.so
+vendor/lib64/android.hardware.usb-V3-ndk.so
 vendor/lib64/android.hardware.usb.gadget@1.0.so
 vendor/bin/hw/android.hardware.usb.gadget-service
 vendor/etc/init/android.hardware.usb.gadget-service.rc
