@@ -13,7 +13,6 @@ vendor/bin/dump/dump_storage.sh
 vendor/bin/dump/dump_thermal.sh
 vendor/bin/gpu_counter_producer
 vendor/bin/hw/android.hardware.authsecret-service.citadel
-vendor/bin/hw/android.hardware.biometrics.face-service-akita
 vendor/bin/hw/android.hardware.biometrics.fingerprint-service.goodix
 vendor/bin/hw/android.hardware.bluetooth-service.bcmbtlinux
 vendor/bin/hw/android.hardware.boot-service.default-zuma
@@ -190,7 +189,6 @@ vendor/etc/faceauth_pipeline_input_akita
 vendor/etc/gnss/ca.pem
 vendor/etc/gnss/gps.cfg
 vendor/etc/init/android.hardware.authsecret-service.citadel.rc
-vendor/etc/init/android.hardware.biometrics.face-service-akita.rc
 vendor/etc/init/android.hardware.bluetooth-service.bcmbtlinux.rc
 vendor/etc/init/android.hardware.boot-service.default-zuma.rc
 vendor/etc/init/android.hardware.camera.provider@2.7-service-google-apex.rc
@@ -275,7 +273,6 @@ vendor/etc/thermal_info_config_proto.json
 vendor/etc/touchflow.pb
 vendor/etc/twoshay_config.json
 vendor/etc/vintf/manifest/android.hardware.authsecret-service.citadel.xml
-vendor/etc/vintf/manifest/android.hardware.biometrics.face-service-akita.xml
 vendor/etc/vintf/manifest/android.hardware.camera.provider@2.7-service-google-apex.xml
 vendor/etc/vintf/manifest/android.hardware.confirmationui-service.trusty.vendor.xml
 vendor/etc/vintf/manifest/android.hardware.gnss@vendor.xml

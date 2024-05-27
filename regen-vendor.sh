@@ -854,6 +854,11 @@ VENDOR_SKIP_FILES=(
     "lib64/android.hardware.confirmationui@1.0.so"
     "lib64/libteeui_hal_support.so"
 
+    # Face unlock
+    "bin/hw/android.hardware.biometrics.face-service-akita"
+    "etc/init/android.hardware.biometrics.face-service-akita.rc"
+    "etc/vintf/manifest/android.hardware.biometrics.face-service-akita.xml"
+
     # Graphics
     "lib64/egl/libEGL_angle.so"
     "lib64/egl/libGLESv1_CM_angle.so"
