@@ -27,6 +27,9 @@ on init
     chmod 0640 /sys/fs/selinux/enforce
     chmod 0440 /sys/fs/selinux/policy
 
+    # Camera sound
+    setprop audio.camerasound.force false
+
 on early-boot
     # Wait for insmod_sh to finish all common modules
     wait_for_prop vendor.common.modules.ready 1

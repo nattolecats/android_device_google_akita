@@ -148,6 +148,13 @@ PRODUCT_PACKAGES += \
     libbinder_trusty \
     libtrusty_metrics
 
+# Camera sound
+PRODUCT_SYSTEM_PROPERTIES += \
+    audio.camerasound.force=false
+
+PRODUCT_PACKAGES += \
+    DisableCameraSoundOverlay
+
 # Misc interfaces
 PRODUCT_PACKAGES += \
     android.frameworks.stats-V1-cpp.vendor \
