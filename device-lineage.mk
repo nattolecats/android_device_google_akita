@@ -155,6 +155,9 @@ PRODUCT_SYSTEM_PROPERTIES += \
 PRODUCT_PACKAGES += \
     DisableCameraSoundOverlay
 
+# Udfps
+TARGET_HAS_UDFPS += true
+
 # Misc interfaces
 PRODUCT_PACKAGES += \
     android.frameworks.stats-V1-cpp.vendor \

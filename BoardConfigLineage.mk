@@ -5,5 +5,6 @@
 #
 
 BUILD_BROKEN_DUP_RULES := true
+DISABLE_ARTIFACT_PATH_REQUIREMENTS := true
 
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
