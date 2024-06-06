@@ -93,6 +93,9 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.common-V4-ndk.vendor \
     com.google.hardware.pixel.display-V4-ndk.vendor
 
+PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += \
+    system/lib64/android.hardware.graphics.common-V4-ndk.so
+
 # HIDL
 PRODUCT_PACKAGES += \
     libhidltransport.vendor \
