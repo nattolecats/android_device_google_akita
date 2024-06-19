@@ -47,6 +47,11 @@ genfscon sysfs /devices/platform/10c90000.hsi2c/i2c-6/6-0061/wakeup/wakeup      
 genfscon sysfs /devices/platform/10c90000.hsi2c/i2c-7/7-0061/wakeup/wakeup                                           u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/10c90000.hsi2c/i2c-8/8-0061/wakeup/wakeup                                           u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/10c90000.hsi2c/i2c-9/9-0061/wakeup/wakeup                                           u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/10c80000.hsi2c/i2c-5/5-0008/wakeup/wakeup4                                          u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/10cb0000.hsi2c/i2c-7/7-0025/wakeup/wakeup82                                         u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/10c80000.hsi2c/i2c-5/5-0008/wakeup/wakeup4/event_count                              u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/acpm_mfd_bus@15500000/i2c-1/1-001f/s2mpg14-rtc/rtc/rtc0/alarmtimer.1.auto/wakeup/wakeup18                u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/acpm_mfd_bus@15500000/i2c-1/1-001f/s2mpg14-rtc/rtc/rtc0/alarmtimer.1.auto/wakeup/wakeup18/event_count    u:object_r:sysfs_wakeup:s0
 
 genfscon sysfs /devices/platform/10cb0000.hsi2c/i2c-0/0-0025/power_supply/tcpm-source-psy-0-0025/wakeup              u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/10cb0000.hsi2c/i2c-1/1-0025/power_supply/tcpm-source-psy-1-0025/wakeup              u:object_r:sysfs_wakeup:s0
@@ -56,6 +61,7 @@ genfscon sysfs /devices/platform/10cb0000.hsi2c/i2c-4/4-0025/power_supply/tcpm-s
 genfscon sysfs /devices/platform/10cb0000.hsi2c/i2c-5/5-0025/power_supply/tcpm-source-psy-5-0025/wakeup              u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/10cb0000.hsi2c/i2c-6/6-0025/power_supply/tcpm-source-psy-6-0025/wakeup              u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/10cb0000.hsi2c/i2c-7/7-0025/power_supply/tcpm-source-psy-7-0025/wakeup              u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/10cb0000.hsi2c/i2c-7/7-0069/power_supply/main-charger/wakeup76                      u:object_r:sysfs_wakeup:s0
 # already in zuma-sepolicy/vendor/genfs_contexts
 # genfscon sysfs /devices/platform/10cb0000.hsi2c/i2c-8/8-0025/power_supply/tcpm-source-psy-8-0025/wakeup            u:object_r:sysfs_wakeup:s0
 genfscon sysfs /devices/platform/10cb0000.hsi2c/i2c-9/9-0025/power_supply/tcpm-source-psy-9-0025/wakeup              u:object_r:sysfs_wakeup:s0
@@ -72,3 +78,10 @@ genfscon sysfs /devices/platform/cpif/modem_state       u:object_r:sysfs_modem_s
 
 # PCP knob
 #genfscon proc /sys/vm/percpu_pagelist_high_fraction u:object_r:proc_percpu_pagelist_high_fraction:s0
+
+# Power ODPM
+genfscon sysfs /devices/platform/acpm_mfd_bus@15510000/i2c-0/0-002f/s2mpg15-meter/s2mpg15-odpm/iio:device0/energy_value       u:object_r:sysfs_odpm:s0
+genfscon sysfs /devices/platform/acpm_mfd_bus@15500000/i2c-1/1-001f/s2mpg14-meter/s2mpg14-odpm/iio:device1/energy_value       u:object_r:sysfs_odpm:s0
+
+# Power Stats
+genfscon sysfs /devices/platform/10c80000.hsi2c/i2c-5/5-0008/power_stats                                             u:object_r:sysfs_power_stats:s0

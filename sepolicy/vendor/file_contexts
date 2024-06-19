@@ -18,3 +18,9 @@
 
 # gnss/gps data/log files
 /data/vendor/gps(/.*)?              u:object_r:vendor_gps_file:s0
+
+# Graphics
+/vendor/lib64/android\.hardware\.graphics\.common-V[0-9]-ndk\.so                           u:object_r:graphics_common_ndk_file:s0
+
+# Power ODPM
+/sys/devices/platform/acpm_mfd_bus@15510000/i2c-0/0-002f/s2mpg15-meter/s2mpg15-odpm/iio:device0/energy_value       u:object_r:sysfs_odpm:s0
