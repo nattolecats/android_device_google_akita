@@ -23,9 +23,6 @@ on init
     # adjust PCP high level
     write /proc/sys/vm/percpu_pagelist_high_fraction 430
 
-    # SELinux workaround
-    chmod 0640 /sys/fs/selinux/enforce
-    chmod 0440 /sys/fs/selinux/policy
 
     # Camera sound
     setprop audio.camerasound.force false
