@@ -75,6 +75,7 @@ PRODUCT_PACKAGES += \
     libcodec2_vndk.vendor \
     libexynosutils \
     libexynosv4l2 \
+    libstagefright_omx \
     libmedia_ecoservice.vendor \
     libsfplugin_ccodec_utils.vendor \
     libstagefright_bufferpool@2.0.1.vendor \
@@ -94,6 +95,7 @@ PRODUCT_PACKAGES += \
     libGLESv2_angle \
     android.hardware.graphics.common-V4-ndk \
     android.hardware.graphics.common-V4-ndk.vendor \
+    android.hardware.graphics.mapper@2.0.vendor \
     com.google.hardware.pixel.display-V4-ndk.vendor
 
 PRODUCT_ARTIFACT_PATH_REQUIREMENT_ALLOWED_LIST += \
@@ -205,7 +207,12 @@ PRODUCT_PACKAGES += \
     android.hardware.weaver-V2-ndk.vendor \
     android.hardware.wifi-V1-ndk.vendor \
     com.google.hardware.pixel.display-V9-ndk.vendor \
-    hardware.google.ril_ext-V1-ndk.vendor
+    hardware.google.ril_ext-V1-ndk.vendor \
+
+PRODUCT_PACKAGES += \
+    libziparchive \
+    libcurl \
+    libevent
 
 # Properties
 TARGET_VENDOR_PROP := $(LOCAL_PATH)/vendor.prop
